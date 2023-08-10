@@ -1,0 +1,85 @@
+/* //temporaire */
+
+/* ========================================================================================= */
+/* =============================Nav========================================================= */
+ul svg{
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+#ul{
+    background-color: rgba(32, 33, 49, 255);
+}
+nav{
+    background-color: rgba(32,33,49,255);
+}
+
+#logo{
+    width:150px;
+    height: 50px;
+    margin: 10px;
+}
+#search{
+    background-color: #334155;
+    border:none ;
+    border-radius: 30px;
+    height: 33px;
+    width: 210px;
+    padding: 10px;
+}
+.hover-effect:hover {
+        filter: brightness(130%);
+      }
+      nav a{
+          text-decoration: none;
+          color: white;
+          font-size:large;
+      }
+/* =============================================================================================== */
+
+/* =============================Menu========================================================= */
+#menu {
+    background-color: rgba(32, 33, 49, 255);
+    border-top: 2px;
+    border-color: aqua;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+
+h5{
+    text-decoration: underline;
+    text-decoration-color: rgba(28,135,201,255);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+.li:hover {
+    color:  rgba(28,135,201,255) ;
+
+}
+/* ============================================================================================ */
+/* ===============================Contenu======================================================= */
+#contenu{
+    margin-left: -5px;
+}
+#list{
+    list-style: inside;
+}
+
+/* ===============================/Contenu======================================================= */
+
+/* ===============================quiz======================================================= */
+#quiz{
+    background-color: rgba(243,244,246,255);
+    margin-left: -5px;
+}
+#entete{
+    margin: 20px auto;
+    max-width: 200px;
+    background-color: rgba(75,85,99,255);
+}
+
+/* ===============================/quiz======================================================= */
+

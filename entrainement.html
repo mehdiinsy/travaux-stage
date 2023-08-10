@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/entrainement.css" />
+
+    <title>entrainement</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--=============================NAV===========================-->
+            <nav class="text-center">
+                <img id="logo" src="assets/img/Sphinx_V.jpg" alt="oups" />
+                <input class="mx-5 hover-effect" id="search" type="text" placeholder="Search" />
+
+                <a class="mx-3 dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"
+                    id="navbarDarkDropdownMenuLink">
+                    Books
+                </a>
+                <ul id="ul" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item text-white li" href="#">Learn HTML</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Learn CSS</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Learn Git</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Learn Javascript</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Learn PHP</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Learn python</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Learn Java</a></li>
+                </ul>
+                <a class="mx-3 dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"
+                    id="navbarDarkDropdownMenuLink">
+                    Exercises
+                </a>
+                <ul id="ul" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li ><a class="dropdown-item text-white" href="#">HTML</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Javascript</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Git</a></li>
+                    <li><a class="dropdown-item text-white" href="#">CSS</a></li>
+                    <li><a class="dropdown-item text-white" href="#">PHP</a></li>
+                </ul>
+                <a class="mx-3" href="#">Courses</a>
+                <a class="mx-3" href="#">Quizzes</a>
+                <a class="mx-3" href="#">Snippets</a>
+                <a class="mx-3" href="#">Tools</a>
+
+                <a class="mx-3 dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"
+                    id="navbarDarkDropdownMenuLink">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                        <style>
+                            svg {
+                                fill: #2388e7
+                            }
+                        </style>
+                        <path
+                            d="M448 256c0-106-86-192-192-192V448c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
+                    </svg>
+                </a>
+                <ul id="ul" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item text-white" href="#"><?xml version="1.0" ?><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M421.6 379.9c-.6641 0-1.35 .0625-2.049 .1953c-11.24 2.143-22.37 3.17-33.32 3.17c-94.81 0-174.1-77.14-174.1-175.5c0-63.19 33.79-121.3 88.73-152.6c8.467-4.812 6.339-17.66-3.279-19.44c-11.2-2.078-29.53-3.746-40.9-3.746C132.3 31.1 32 132.2 32 256c0 123.6 100.1 224 223.8 224c69.04 0 132.1-31.45 173.8-82.93C435.3 389.1 429.1 379.9 421.6 379.9zM255.8 432C158.9 432 80 353 80 256c0-76.32 48.77-141.4 116.7-165.8C175.2 125 163.2 165.6 163.2 207.8c0 99.44 65.13 183.9 154.9 212.8C298.5 428.1 277.4 432 255.8 432z"/></svg> Dark</a></li>
+                    <li><a class="dropdown-item text-white" href="#"><?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect height="256" width="256"/><circle cx="128" cy="128" fill="none" r="60" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="128" x2="128" y1="36" y2="16"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="62.9" x2="48.8" y1="62.9" y2="48.8"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="36" x2="16" y1="128" y2="128"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="62.9" x2="48.8" y1="193.1" y2="207.2"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="128" x2="128" y1="220" y2="240"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="193.1" x2="207.2" y1="193.1" y2="207.2"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="220" x2="240" y1="128" y2="128"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="193.1" x2="207.2" y1="62.9" y2="48.8"/></svg> Light</a></li>
+                    <li><a class="dropdown-item text-white" href="#"><?xml version="1.0" ?><svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M24 32.5l8-8h-6v-18h-4v18h-6l8 8zm18-26h-12v3.97h12v28.06h-36v-28.06h12v-3.97h-12c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h36c2.21 0 4-1.79 4-4v-28c0-2.21-1.79-4-4-4z"/></svg> System</a></li>
+
+                </ul>
+            </nav>
+            <!--=============================/NAV===========================-->
+
+            <!--=============================menu===========================-->
+            <div id="menu" class="col-2 d-inline-block fixed px-4 pb-5 pt-4">
+                <h5 class="text-white mx-3 mt-5">Books</h5>
+                <ul>
+                    <li><a class="mx-3 li" href="#">Learn HTML</a><br></li>
+                    <li><a class="mx-3 li" href="#">Learn CSS</a><br></li>
+                    <li><a class="mx-3 li" href="#">Learn GIT</a><br></li>
+                    <li><a class="mx-3 li" href="#">Learn Javascript</a><br></li>
+                    <li><a class="mx-3 li" href="#">Learn PHP</a><br></li>
+                    <li><a class="mx-3 li" href="#">Learn python</a><br></li>
+                    <li><a class="mx-3 li" href="#">Learn Java</a><br></li>
+                </ul>
+                <h5 class="text-white mx-3 mt-5">How To</h5>
+                <ul>
+                    <li><a class="mx-3 li" href="#">How To NodeJs</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Linux</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To AngularJs</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To PHP</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To HTML</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To CSS</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Symfony</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Google Maps</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Git</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Apache</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To JavaScript</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Java</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Vue.js</a><br></li>
+                    <li><a class="mx-3 li" href="#">How To Python</a><br></li>
+                </ul>
+            </div>
+            <!--=============================/menu===========================-->
+
+            <!--=============================contenu===========================-->
+
+            <div id="contenu" class="col-8 d-inline-block">
+                <h1>How to Add an Anchor Link to Jump to a Specific Part of a Page</h1>
+                <ol>
+                    <li>Creating an anchor link:</li>
+                    <ul>
+                        <li id="list">Example of creating a jumping anchor link:</li>
+                    </ul>
+                    <li>Creating an anchor link:</li>
+                    <ul>
+                        <li id="list">Example of creating a jumping anchor link:</li>
+                    </ul>
+                    <li>Creating an anchor link:</li>
+                    <ul>
+                        <li id="list">Example of creating a jumping anchor link:</li>
+                        <li id="list">Example of creating a jumping anchor link:</li>
+                        <li id="list">Example of creating a jumping anchor link:</li>
+                    </ul>
+                    <li>Creating an anchor link:</li>
+                    <li>Creating an anchor link:</li>
+                </ol>
+                <p>An anchor link is a link, which allows the users to flow through a website page. It helps to scroll
+                    and
+                    skim-read
+                    easily. A named anchor can be used to link to a different part of the same page (like quickly
+                    navigating) or to
+                    a specific section of another page.</p>
+
+                <div class="alert alert-dismissible alert-primary">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <svg enable-background="new 0 0 24 24" height="24px" id="Layer_1" version="1.1" viewBox="0 0 24 24"
+                        width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path
+                                d="M23.3,7.3c0-0.2-0.3-1.8-1-2.5c-0.9-1-1.9-1.1-2.4-1.1l-0.1,0c-3.1-0.2-7.7-0.2-7.8-0.2c0,0-4.7,0-7.8,0.2l-0.1,0   c-0.5,0-1.5,0.1-2.4,1.1c-0.7,0.8-1,2.4-1,2.6c0,0.1-0.2,1.9-0.2,3.8v1.7c0,1.9,0.2,3.7,0.2,3.8c0,0.2,0.3,1.8,1,2.5   c0.8,0.9,1.8,1,2.4,1.1c0.1,0,0.2,0,0.3,0c1.8,0.2,7.3,0.2,7.5,0.2c0,0,0,0,0,0c0,0,4.7,0,7.8-0.2l0.1,0c0.5-0.1,1.5-0.2,2.4-1.1   c0.7-0.8,1-2.4,1-2.6c0-0.1,0.2-1.9,0.2-3.8v-1.7C23.5,9.3,23.3,7.4,23.3,7.3z M15.9,12.2l-6,3.2c-0.1,0-0.1,0.1-0.2,0.1   c-0.1,0-0.2,0-0.2-0.1c-0.1-0.1-0.2-0.2-0.2-0.4l0-6.5c0-0.2,0.1-0.3,0.2-0.4S9.8,8,10,8.1l6,3.2c0.2,0.1,0.3,0.2,0.3,0.4   S16.1,12.1,15.9,12.2z" />
+                        </g>
+                    </svg>
+                    <span>Watch a video course </span>
+                    <strong>CSS - The Complete Guide (incl. Flexbox, Grid & Sass)</strong>
+                </div>
+
+            </div>
+            <!--=============================menu===========================-->
+
+            <!--=============================quiz===========================-->
+            <div id="quiz" class="col-2 d-inline-block bg-info">
+                <div id="entete">
+                    <a class="text-white" href="#">Quizzes</a>
+                </div>
+                <div class="p-2">
+                    <a href="#">HTML Basic</a><br>
+                    <a href="#">React Basic</a><br>
+                    <a href="#">Angular Basic</a><br>
+                    <a href="#">Git Basic</a><br>
+                    <a href="#">CSS Basic</a><br>
+                    <a href="#">Javascript Basic</a><br>
+                    <a href="#">Typescript Basic</a><br>
+                    <a href="#">PHP Basic</a><br>
+                    <a href="#">ES6 Basic</a><br>
+                    <a href="#">Vue.js Basic</a><br>
+                </div>
+
+            </div>
+            <!--=============================/quiz===========================-->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
