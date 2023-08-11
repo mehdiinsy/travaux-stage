@@ -40,8 +40,8 @@ nav{
 /* =============================Menu========================================================= */
 #menu {
     background-color: rgba(32, 33, 49, 255);
-    border-top: 2px;
-    border-color: aqua;
+    border-top: 1px solid;
+    border-color: grey;
 }
 li a{
     text-decoration: none;
@@ -62,10 +62,15 @@ h5{
 /* ============================================================================================ */
 /* ===============================Contenu======================================================= */
 #contenu{
-    margin-left: -5px;
+    border-right: 1px solid;
+    border-color: grey;
 }
 #list{
     list-style: inside;
+}
+ol li{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* ===============================/Contenu======================================================= */
@@ -73,7 +78,6 @@ h5{
 /* ===============================quiz======================================================= */
 #quiz{
     background-color: rgba(243,244,246,255);
-    margin-left: -5px;
 }
 #entete{
     margin: 20px auto;
