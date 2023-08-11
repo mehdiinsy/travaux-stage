@@ -76,13 +76,19 @@ ol li{
 /* ===============================/Contenu======================================================= */
 
 /* ===============================quiz======================================================= */
-#quiz{
-    background-color: rgba(243,244,246,255);
-}
 #entete{
-    margin: 20px auto;
-    max-width: 200px;
-    background-color: rgba(75,85,99,255);
+    background-color:rgba(32,33,49,255);
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+#cardlist{
+    background-color: rgba(243,244,246,255);
+    border-color: rgba(243,244,246,255);
+}
+li{
+    list-style: none;
 }
 
 /* ===============================/quiz======================================================= */
